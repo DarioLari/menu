@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menù C'EST LA VIE - Caffetteria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .menu {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+            border: 3px solid white;
+        }
+        h1 {
+            color: white;
+        }
+        h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        .menu img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <img src="https://source.unsplash.com/800x400/?coffee,cup" alt="Caffetteria">
+        <h1>Menù C'EST LA VIE</h1>
+        
+        <h2>Citazione</h2>
+        <p>“Nel vino c’è la saggezza, nella birra libertà, nell’acqua i batteri.” - B. Franklin</p>
+        
+        <h2>Elenco Allergeni</h2>
+        <p>Arachidi e derivati (1), Crostacei (2), Frutta a guscio (3), Glutine (4), Latte (5) e derivati (5), Molluschi (6), Senape (7), Pesce (8), Sedano (9), Sesamo (10), Anidride solforosa e solfiti (11), Soia (12), Uova e derivati (13), Lupini (14).</p>
+        
+        <h2>Caffetteria</h2>
+        <div class="item"><span>Decaffeinato (5)</span> <span>€3,00</span></div>
+        <div class="item"><span>Espresso</span> <span>€2,50</span></div>
+        <div class="item"><span>Macchiato</span> <span>€3,00</span></div>
+        <div class="item"><span>Thè Caldo</span> <span>€5,00</span></div>
+        <div class="item"><span>Espresso doppio</span> <span>€4,00</span></div>
+        <div class="item"><span>Orzo (5)</span> <span>€3,00</span></div>
+        <div class="item"><span>Ginseng (5)</span> <span>€3,00</span></div>
+        <div class="item"><span>Cappuccino (5)</span> <span>€3,50</span></div>
+        <div class="item"><span>Cappuccino caffè doppio (5)</span> <span>€5,00</span></div>
+        <div class="item"><span>Cappuccino deca/orzo (5)</span> <span>€3,80</span></div>
+        <div class="item"><span>Cappuccino ginseng (5)</span> <span>€4,00</span></div>
+        <div class="item"><span>Cappuccino soia (5,12)</span> <span>€4,00</span></div>
+        <div class="item"><span>Cappuccino senza lattosio (5)</span> <span>€4,00</span></div>
+        <div class="item"><span>Latte macchiato (5)</span> <span>€4,00</span></div>
+        <div class="item"><span>Latte macchiato caffè doppio (5)</span> <span>€6,00</span></div>
+        <div class="item"><span>Latte macchiato deca/orzo (5)</span> <span>€4,50</span></div>
+        <div class="item"><span>Latte macchiato ginseng (5)</span> <span>€4,50</span></div>
+        <div class="item"><span>Latte</span> <span>€3,00</span></div>
+        <div class="item"><span>Latte di soia (5,12)</span> <span>€3,20</span></div>
+        <div class="item"><span>Latte senza lattosio (5)</span> <span>€3,20</span></div>
+        <div class="item"><span>Marocchino (3,5)</span> <span>€3,50</span></div>
+        <div class="item"><span>Marocchino imperiale (5)</span> <span>€5,00</span></div>
+        <div class="item"><span>Thè caldo</span> <span>€4,00</span></div>
+        <div class="item"><span>Cioccolata calda</span> <span>€3,50</span></div>
+        <div class="item"><span>Cioccolata calda con panna (4,5)</span> <span>€4,50</span></div>
+        <div class="item"><span>Caffè shakerato</span> <span>€5,00</span></div>
+        <div class="item"><span>Caffè corretto</span> <span>€3,50</span></div>
+        <div class="item"><span>Macchiatone</span> <span>€3,00</span></div>
+
+	<h2>Food</h2>
+        <div class="item"><span>Pezzo dolce pistacchio/nutella/acero/fragola (4,5,11)</span> <span>€3,00</span></div>
+        <div class="item"><span>Pezzo dolce (4,5,11)</span> <span>€2,50</span></div>
+        <div class="item"><span>Piccola pasticceria (4,5,11)</span> <span>€1,50</span></div>
+        <div class="item"><span>Fetta torta (4,5,11)</span> <span>€4,50</span></div>
+        <div class="item"><span>Occhio di bue (4,5,11)</span> <span>€2,00</span></div>
+        <div class="item"><span>Focaccina piccola (4,5,7,11)</span> <span>€3,50</span></div>
+        <div class="item"><span>Panbrioche (4,5,8,11)</span> <span>€3,50</span></div>
+        <div class="item"><span>Toast (4,5)</span> <span>€4,50</span></div>
+        <div class="item"><span>Tramezzino (4,5,8,11)</span> <span>€5,00</span></div>
+        <div class="item"><span>Pezzo pizza/pizzetta tonda (4,5,11)</span> <span>€4,50</span></div>
+        <div class="item"><span>Pizzetta sfoglia (4,5,11)</span> <span>€3,50</span></div>
+        <div class="item"><span>Pizzetta piccola (4,5,11)</span> <span>€2,50</span></div>
+        <div class="item"><span>Yogurt bianco (5)</span> <span>€3,00</span></div>
+        <div class="item"><span>Yogurt con frutta (3,5)</span> <span>€5,00</span></div>
+        
+        <h2>Succhi, Bibite e Vitamine</h2>
+        <div class="item"><span>Succo di frutta</span> <span>€5,00</span></div>
+        <div class="item"><span>Bibita</span> <span>€5,00</span></div>
+        <div class="item"><span>Spremuta</span> <span>€5,00</span></div>
+        <div class="item"><span>Centrifuga 3 ingredienti</span> <span>€8,00</span></div>
+        <div class="item"><span>Centrifuga 4 ingredienti</span> <span>€10,00</span></div>
+        <div class="item"><span>Centrifuga 5 ingredienti</span> <span>€12,00</span></div>
+        <div class="item"><span>Frullato</span> <span>€8,00</span></div>
+        <div class="item"><span>Smoothie (5)</span> <span>€10,00</span></div>
+        <div class="item"><span>Acqua naturale 0.50 L</span> <span>€2,00</span></div>
+        <div class="item"><span>Acqua naturale 1 L</span> <span>€3,00</span></div>
+        <div class="item"><span>Acqua frizzante 0.50 L</span> <span>€2,00</span></div>
+        <div class="item"><span>Acqua frizzante 1 L</span> <span>€3,00</span></div>
+        <div class="item"><span>Brick</span> <span>€3,00</span></div>
+        <div class="item"><span>Crodino/Sanbitter</span> <span>€6,50</span></div>
+        <div class="item"><span>Campari Soda</span> <span>€7,50</span></div>
+
+        <h2>Piatti</h2>
+        <div class="item"><span>Pane arabo (4,5,11)</span> <span>€12,00</span></div>
+        <div class="item"><span>Focaccia cotto, fontina, zucchine (4,5,11)</span> <span>€8,00</span></div>
+        <div class="item"><span>Focaccia crudo, pecorino, maionese (4,5,11)</span> <span>€8,00</span></div>
+        <div class="item"><span>Focaccia crudo, 4 formaggi, pisellini (4,5,11)</span> <span>€8,00</span></div>
+        <div class="item"><span>Focaccia tonno, pomodoro, maionese (4,5,8,11)</span> <span>€9,00</span></div>
+        <div class="item"><span>Focaccia gamberetti, salsa rosa, rucola (2,4,5,11)</span> <span>€9,00</span></div>
+        <div class="item"><span>Focaccia salmone, philadelphia, rucola (4,5,8)</span> <span>€9,00</span></div>
+        <div class="item"><span>Focaccia con porchetta</span> <span>€10,00</span></div>
+        <div class="item"><span>Focaccia mortadella e stracciatella</span> <span>€10,00</span></div>
+        
+        <h2>Insalate</h2>
+        <div class="item"><span>Moisho (4,5,11) - Insalata verde, pomodoro, acciughe, capperi, mozzarella</span> <span>€13,00</span></div>
+        <div class="item"><span>Fdm (2) - Insalata verde, pomodoro, cipolla, olive, carote, gamberetti</span> <span>€13,00</span></div>
+        <div class="item"><span>Italy Master Piece (5,8) - Rucola, pomodoro, burrata, acciughe</span> <span>€13,00</span></div>
+        <div class="item"><span>Greca (5) - Insalata verde, cetriolo, feta, olive, cipolla</span> <span>€13,00</span></div>
+        <div class="item"><span>Gym Tears (5) - Insalata verde, pomodoro, pollo, grana, cipolle, salsa yogurt</span> <span>€15,00</span></div>
+        <div class="item"><span>Tuscany Country Side (5,11) - Insalata verde, pomodoro, cipolla, feta, cetriolo, mais, legumi</span> <span>€12,00</span></div>
+        <div class="item"><span>Poseidon (8,11) - Insalata Verde, pomodoro, mais, olive, tonno</span> <span>€13,00</span></div>
+        
+        <div class="item"><span>Coperto</span> <span>€1,50</span></div>
+
+	<h2>Spritz & Classici</h2>
+        <div class="item"><span>Spritz Aperol</span> <span>€10,00</span></div>
+        <div class="item"><span>Spritz Campari</span> <span>€10,00</span></div>
+        <div class="item"><span>Spritz Select (Veneziano)</span> <span>€10,00</span></div>
+        <div class="item"><span>Spritz Cinar</span> <span>€10,00</span></div>
+        <div class="item"><span>Spritz Hugo</span> <span>€10,00</span></div>
+        <div class="item"><span>Spritz Saint Germain</span> <span>€13,00</span></div>
+        <div class="item"><span>Spritz Fiorente</span> <span>€13,00</span></div>
+        <div class="item"><span>Spritz Bigusto</span> <span>€13,00</span></div>
+        <div class="item"><span>Americano</span> <span>€10,00</span></div>
+        <div class="item"><span>Negroni</span> <span>€10,00</span></div>
+        <div class="item"><span>Il Toscano</span> <span>€15,00</span></div>
+        <div class="item"><span>Negroni Alpino</span> <span>€15,00</span></div>
+        <div class="item"><span>Cocktail Martini</span> <span>€12,00</span></div>
+        <div class="item"><span>Vodka Martini</span> <span>€12,00</span></div>
+        <div class="item"><span>Vesper Martini</span> <span>€12,00</span></div>
+        <div class="item"><span>Vodka Sour Maracuja</span> <span>€12,00</span></div>
+        <div class="item"><span>Vodka Sour</span> <span>€10,00</span></div>
+        <div class="item"><span>Piña Colada</span> <span>€10,00</span></div>
+        <div class="item"><span>Moscow Mule</span> <span>€13,00</span></div>
+        <div class="item"><span>Mojito Classic</span> <span>€10,00</span></div>
+        <div class="item"><span>Mojito Liquirizia</span> <span>€12,00</span></div>
+        <div class="item"><span>Mojito Frutti Rossi</span> <span>€15,00</span></div>
+        <div class="item"><span>Mojito Mandorla</span> <span>€12,00</span></div>
+        <div class="item"><span>Mojito Cocco</span> <span>€12,00</span></div>
+        <div class="item"><span>Cuba Libre</span> <span>€10,00</span></div>
+        <div class="item"><span>Cubano</span> <span>€10,00</span></div>
+        <div class="item"><span>Mi-To</span> <span>€10,00</span></div>
+        <div class="item"><span>Birra</span> <span>€7,00</span></div>
+        <div class="item"><span>Distillati e Liquori</span> <span>€6,00</span></div>
+        
+        <h2>Cocktail alla Frutta (Analcolici)</h2>
+        <div class="item"><span>Virgin Mary</span> <span>€10,00</span></div>
+        <div class="item"><span>Virgin Mojito</span> <span>€12,00</span></div>
+        <div class="item"><span>Cocktail Frutta</span> <span>€12,00</span></div>
+
+        <h2>Gin Tonic</h2>
+        <div class="item"><span>Acqueverdi Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Acqueverdi Dry Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Gold Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Gin Mare Capri Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Citadelle Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Monkey47 Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Dolce Vita Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Dolce Vita Pompelmo Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Bulldog Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Williams 48 Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Ruffino Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Hendricks Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Hendricks Gran Cabaret Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Hendricks Flora Adora Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Hendricks Neptunia Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Giori Tonic</span> <span>€10,00</span></div>
+        <div class="item"><span>Giori Vegan Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Giori Pompelmo Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Brockmans Agave Tonic al Pompelmo</span> <span>€15,00</span></div>
+        <div class="item"><span>Japanese Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Kaikyo Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Roku Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Sabatini Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Brockmans Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Nordés Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Silent Pool Tonic</span> <span>€13,00</span></div>
+        <div class="item"><span>Gin Mare Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Tanqueray Tonic</span> <span>€10,00</span></div>
+        <div class="item"><span>Tanqueray Ten Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Arte Tonic</span> <span>€12,00</span></div>
+        <div class="item"><span>Bombay Tonic</span> <span>€10,00</span></div>
+        <div class="item"><span>Major Tonic</span> <span>€15,00</span></div>
+        <div class="item"><span>Pepe Tonic</span> <span>€15,00</span></div>
+
+   
+        <h2>Vini e Bollicine</h2>
+        <div class="item"><span>Vino Rosso</span> <span>€7,00 / €35,00</span></div>
+        <div class="item"><span>Vino Bianco</span> <span>€8,00 / €40,00</span></div>
+        <div class="item"><span>Prosecco</span> <span>€7,00 / €35,00</span></div>
+        <div class="item"><span>Franciacorta</span> <span>€10,00 / *</span></div>
+        <div class="item"><span>Champagne</span> <span>€12,00 / *</span></div>
+        <div class="item"><span>Metodo Classico</span> <span>€10,00 / *</span></div>
+        <div class="item"><span>Rosè</span> <span>€10,00 / *</span></div>
+        <p>* Per informazioni sulla tipologia ed il prezzo di bottiglie, rivolgersi al personale.</p>
+        
+        <h2>Whisky</h2>
+        <div class="item"><span>Oban 14 y.o.</span> <span>€10,00</span></div>
+        <div class="item"><span>Lagavulin 16 y.o.</span> <span>€12,00</span></div>
+        <div class="item"><span>Laphroaig 10 y.o.</span> <span>€9,00</span></div>
+        <div class="item"><span>Johnnie Walker Red</span> <span>€7,00</span></div>
+        <div class="item"><span>Johnnie Walker Black</span> <span>€8,00</span></div>
+        <div class="item"><span>Talisker 10 y.o.</span> <span>€10,00</span></div>
+        <div class="item"><span>Aerstone 10 y.o.</span> <span>€7,00</span></div>
+        <div class="item"><span>Tullibardine</span> <span>€10,00</span></div>
+        <div class="item"><span>Torabhaig</span> <span>€13,00</span></div>
+        <div class="item"><span>Ardbeg 10 y.o.</span> <span>€15,00</span></div>
+        <div class="item"><span>Macallan 12 y.o.</span> <span>€15,00</span></div>
+        <div class="item"><span>Chivas 12 y.o.</span> <span>€8,00</span></div>
+        <div class="item"><span>Nikka</span> <span>€13,00</span></div>
+        <div class="item"><span>Teniaku</span> <span>€10,00</span></div>
+        <div class="item"><span>Jack Daniel’s</span> <span>€8,00</span></div>
+        <div class="item"><span>Jack Daniel’s Single Barrel</span> <span>€10,00</span></div>
+        <div class="item"><span>Balcones Rye</span> <span>€12,00</span></div>
+        <div class="item"><span>Balcones Bourbon</span> <span>€10,00</span></div>
+        
+        <h2>Rum</h2>
+        <div class="item"><span>Zacapa 23 y.o.</span> <span>€12,00</span></div>
+        <div class="item"><span>Matusalem 15 y.o.</span> <span>€10,00</span></div>
+        <div class="item"><span>Diplomatico</span> <span>€10,00</span></div>
+        <div class="item"><span>Don Papa Baroko</span> <span>€10,00</span></div>
+        <div class="item"><span>Havana 7</span> <span>€10,00</span></div>
+        <div class="item"><span>J. Bally 7</span> <span>€12,00</span></div>
+        <div class="item"><span>Bacoo 7</span> <span>€8,00</span></div>
+    </div>
+</body>
+</html>
+
+
+
